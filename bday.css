@@ -141,33 +141,33 @@ img {
 
 @media only screen and (max-width: 380px) {
     .text {
-        font-size: 23px;
+        font-size: 17px;
 
     }
 
     .txt {
-        font-size: 23px;
+        font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 340px) {
     .text {
-        font-size: 21px;
+        font-size: 15px;
 
     }
 
     .txt {
-        font-size: 21px;
+        font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .text {
-        font-size: 15px;
+        font-size: 12px;
 
     }
 
     .txt {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
