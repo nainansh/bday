@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +32,8 @@ body {
     text-align: center;
     font-size: 25px;
     color: #fff;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 .fx {
@@ -142,6 +150,8 @@ img {
     color: #fff;
     font-weight: 200;
     margin-bottom: 45px;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 @media only screen and (max-width: 380px) {
@@ -194,11 +204,11 @@ img {
     color: red;
     animation: beat 1s infinite alternate;
     /* transform-origin: center; */
-    z-index:2;
-    top:-235px;
+    z-index: 2;
+    top: -235px;
 }
 
-@keyframes beat{
+@keyframes beat {
     0% {
         transform: scale(1);
     }
@@ -216,3 +226,40 @@ img {
     width: 100vw;
     height: 200px;
 }
+
+.nxt {
+    width: 200px;
+    height: 200px;
+    /* display:inline-grid; */
+    top: -170px;
+    position: relative;
+    left: 65px;
+    background: transparent;
+    box-shadow: 2px 1px 20px whitesmoke;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#txt {
+    padding: 8px;
+    letter-spacing: 1.5px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.special {
+    background-color: rgb(185, 31, 103);
+    font-size: 20px;
+    font-weight: 200;
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    left: 132px;
+    top: -230px;
+    cursor:pointer;
+}
+
